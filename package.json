@@ -1,0 +1,25 @@
+{
+  "name": "designpatternbytypescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RikiyaOta/DesignPatternByTypeScript.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RikiyaOta/DesignPatternByTypeScript/issues"
+  },
+  "homepage": "https://github.com/RikiyaOta/DesignPatternByTypeScript#readme",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.29.0",
+    "@typescript-eslint/parser": "^5.29.0",
+    "eslint": "^8.18.0",
+    "typescript": "^4.7.4"
+  }
+}
