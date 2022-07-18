@@ -1,3 +1,4 @@
 node_modules
 src/**/*.js
 src/builderPattern/*.html
+src/facadePattern/*.html
