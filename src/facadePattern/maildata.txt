@@ -1,0 +1,5 @@
+rikiya@rikiya.com=Rikiya Ota
+taro@rikiya.com=Taro Tanaka
+yusuke@rikiya.com=Yusuke Shibata
+ryo@rikiya.com=Ryo Fukuo
+toshimitsu@rikiya.com=Toshimitsu Suzuki
