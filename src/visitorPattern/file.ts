@@ -6,11 +6,11 @@ export class File extends Entry {
     super();
   }
 
-  getName() {
+  getName(): string {
     return this.name;
   }
 
-  getSize() {
+  getSize(): number {
     return this.size;
   }
 

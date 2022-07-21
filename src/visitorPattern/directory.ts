@@ -1,5 +1,6 @@
 import { Entry } from "./entry";
 import { Visitor } from "./visitor";
+import { SizeVisitor } from "./sizeVisitor";
 
 export class Directory extends Entry {
   private dir: Entry[] = [];
@@ -8,13 +9,14 @@ export class Directory extends Entry {
     super();
   }
 
-  getName() {
+  getName(): string {
     return this.name;
   }
 
-  getSize() {
-    const initValue = 0;
-    return this.dir.reduce((acc, entry) => acc + entry.getSize(), initValue);
+  getSize(): number {
+    const sizeVisitor = new SizeVisitor();
+    this.accept(sizeVisitor);
+    return sizeVisitor.getSize();
   }
 
   override add(entry: Entry): Entry {
