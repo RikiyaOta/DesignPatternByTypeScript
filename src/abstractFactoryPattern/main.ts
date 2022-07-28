@@ -36,7 +36,7 @@ if (process.argv.length <= 3) {
   traySearch.add(excite);
   traySearch.add(google);
 
-  const page = factory.createPage("LinkPage", "RikiyaOta");
+  const page = factory.createPage(className, "RikiyaOta");
   page.add(trayNews);
   page.add(traySearch);
   page.output();
